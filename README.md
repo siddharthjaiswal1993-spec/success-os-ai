@@ -30,6 +30,8 @@ npm install
 npm run dev
 ```
 
+**Early prototype (Lovable):** https://agent-success-os.lovable.app
+
 **Modules built:**
 
 | Module | Description |
@@ -53,50 +55,54 @@ npm run dev
 
 ## AI Product Strategy
 
-This repo doubles as a living strategy document built across 6 course modules. Each module adds one strategic layer. Status reflects current completion.
+This repo doubles as a living strategy document built across 6 course modules.
 
 | Component | Module | Status | Key Artifact |
 |-----------|--------|--------|-------------|
-| **The Bet** | M1 | In progress | [`01-the-bet/`](01-the-bet/) |
-| **The Moat** | M2 | Complete | [`02-the-moat/`](02-the-moat/) |
-| **The Margin** | M3 | In progress | [`03-the-margin/`](03-the-margin/) |
-| **The Contract** | M4 | In progress | [`04-the-contract/`](04-the-contract/) |
-| **The Guardrails** | M5 | In progress | [`05-the-guardrails/`](05-the-guardrails/) |
-| **The Pitch** | M6 | In progress | [`06-the-pitch/`](06-the-pitch/) |
+| **The Bet** | M1 | ✅ Complete | [`01-the-bet/`](01-the-bet/) |
+| **The Moat** | M2 | ✅ Complete | [`02-the-moat/`](02-the-moat/) |
+| **The Margin** | M3 | Pending | [`03-the-margin/`](03-the-margin/) |
+| **The Contract** | M4 | Pending | [`04-the-contract/`](04-the-contract/) |
+| **The Guardrails** | M5 | Pending | [`05-the-guardrails/`](05-the-guardrails/) |
+| **The Pitch** | M6 | Pending | [`06-the-pitch/`](06-the-pitch/) |
 
 ---
 
-## The Bet (M1)
+## The Bet (M1) ✅
 
 **What we're building, for whom, why now.**
 
-- **Product:** SuccessOS AI — autonomous Customer Success Intelligence Agent
-- **AI Value Archetype:** Autonomous Agent (monitors signals, reasons over data, recommends actions, requests human approval)
-- **Vulnerability Scores:** Moat __/5 · Data __/5 · Platform __/5
-- **Top Risk:** Established CS platforms (Gainsight, ChurnZero) adding AI layers on top of mature data models
-- **Confidence:** M
-- **Prototype:** [`/app`](app/) — run locally with `cd app && npm run dev`
-- **Kill Criteria:** If Salesforce Einstein ships native CS health scoring with agentic workflow support before we reach 10 paying customers
+- **Product:** SuccessOS AI — AI-powered autonomous Customer Success Intelligence Agent for enterprise SaaS companies
+- **AI Value Archetype:** Orchestrator — the agent prioritizes actions across accounts, generates save plans, flags stakeholder changes, and drives the CSM's next move autonomously
+- **Vulnerability Scores:** Moat 4/5 · Data 3/5 · Platform 4/5
+- **Top Risk:** Platform exposure — Gainsight, Salesforce (Einstein + Agentforce), and Gong can each ship a version of CS intelligence natively within their existing workflows and data ownership before SuccessOS AI reaches scale
+- **Confidence:** M — defensible if deep workflow integration and cross-customer predictive advantage are established within 12–18 months before incumbents close the AI gap
+- **Prototype:** [agent-success-os.lovable.app](https://agent-success-os.lovable.app) · React build in [`/app`](app/)
+- **Kill Criteria:**
+  - Gainsight or Salesforce ships native AI CS intelligence with comparable depth before reaching 20+ enterprise accounts
+  - CSMs consistently ignore AI-recommended actions (trust gap too large to close)
+  - Cross-customer pattern data after 12 months shows no meaningful improvement in churn prediction over baseline CRM signals alone
+  - Enterprise procurement cycles exceed 9 months on average, making CAC unrecoverable at any realistic ACV
 
 → Details: [`01-the-bet/`](01-the-bet/)
 
 ---
 
-## The Moat (M2)
+## The Moat (M2) ✅
 
 **Why this won't get copied in 6 months.**
 
 - **Data Flywheel Score:** 5/20 (ground zero — honest assessment)
-- **Weakest Loop:** Correction — Approve/Dismiss signals exist in the UI but capture zero data today
+- **Weakest Loop:** Correction — Approve/Dismiss signals exist in the UI but capture zero persistent data today
 - **Competitive Position:** Workflow depth and transparent AI reasoning vs. Gainsight (data depth) vs. Salesforce (distribution)
-- **Encroachment Defense:** Human-in-the-loop approval design, CS domain signal model, correction loop data (to be built)
-- **Vendor Portability:** Locked (ground zero — no abstraction layer, single LLM provider dependency)
+- **Encroachment Defense:** Human-in-the-loop approval design, CS domain signal model, correction loop data (to be built); defensible response is going deeper on autonomous execution and cross-platform intelligence that no single incumbent can replicate
+- **Vendor Portability:** Locked (ground zero — no abstraction layer, single LLM provider dependency; path to Partial requires a thin wrapper and at least one alternative provider tested)
 
 → Details: [`02-the-moat/`](02-the-moat/)
 
 ---
 
-## The Margin (M3)
+## The Margin (M3) — Pending
 
 **Will this make money or bleed it?**
 
@@ -110,21 +116,21 @@ This repo doubles as a living strategy document built across 6 course modules. E
 
 ---
 
-## The Contract (M4)
+## The Contract (M4) — Pending
 
 **Why users will trust a probabilistic system.**
 
 - **Reliability Target:** —
 - **Golden Dataset:** —
-- **Confidence UX:** Confidence score bars displayed on every agent action
-- **HITL Architecture:** External actions require explicit approval; internal actions flagged as autonomous
+- **Confidence UX:** —
+- **HITL Architecture:** —
 - **Failure Mode Coverage:** —
 
 → Details: [`04-the-contract/`](04-the-contract/)
 
 ---
 
-## The Guardrails (M5)
+## The Guardrails (M5) — Pending
 
 **What breaks when this scales — and what compounds.**
 
@@ -138,7 +144,7 @@ This repo doubles as a living strategy document built across 6 course modules. E
 
 ---
 
-## The Pitch (M6)
+## The Pitch (M6) — Pending
 
 **How you get this funded, shipped, and adopted.**
 
@@ -161,7 +167,7 @@ This project demonstrates:
 - Churn detection and expansion intelligence
 - Feature-to-customer impact mapping
 - Customer account memory and health modeling
+- Honest AI product strategy: vulnerability scoring, flywheel assessment, vendor lock-in audit, competitive encroachment modeling
 - AI-native product design for Customer Success teams
-- Honest AI product strategy: flywheel scoring, vendor lock-in audit, competitive encroachment modeling
 
 Built for the Product School AI Product Strategy course. Intended as a portfolio artifact for Staff / Principal AI Product Manager roles.

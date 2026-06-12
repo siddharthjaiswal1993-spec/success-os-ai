@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "description": "Feature impact matching rules — maps feature keywords to account relevance scores",
+  "lastUpdated": "2026-06-01",
+  "rules": [
+    {
+      "ruleId": "FI-001",
+      "featureCategory": "Multi-Location Management",
+      "triggerKeywords": ["multi-location", "location", "franchise", "multi-site", "branch", "regional", "multiple locations"],
+      "matches": [
+        {
+          "accountId": "franchiseworks",
+          "relevance": "High",
+          "impactType": "Expansion Opportunity",
+          "reasoning": "FranchiseWorks manages 18 franchise locations and has an active regional expansion plan. Multi-location features directly address their core operational complexity.",
+          "confidenceScore": 0.95
+        },
+        {
+          "accountId": "urbanfit-studios",
+          "relevance": "High",
+          "impactType": "Churn Risk Reduction",
+          "reasoning": "UrbanFit Studios operates multiple fitness locations and is currently struggling with adoption inconsistency across studios. Location-specific features could address this.",
+          "confidenceScore": 0.88
+        },
+        {
+          "accountId": "cloudkitchen-pro",
+          "relevance": "Medium",
+          "impactType": "Churn Risk Reduction",
+          "reasoning": "CloudKitchen Pro operates multiple kitchen sites. Multi-location features may address some of their adoption challenges by enabling kitchen-level visibility.",
+          "confidenceScore": 0.72
+        },
+        {
+          "accountId": "acme-retail-group",
+          "relevance": "Medium",
+          "impactType": "Expansion Opportunity",
+          "reasoning": "Acme Retail is expanding to 5 new locations Q3 2026. Multi-location features will be relevant for managing and onboarding new store leads.",
+          "confidenceScore": 0.68
+        }
+      ]
+    },
+    {
+      "ruleId": "FI-002",
+      "featureCategory": "RBAC and Permissions",
+      "triggerKeywords": ["RBAC", "role-based", "permissions", "access control", "granular access", "admin roles", "data governance"],
+      "matches": [
+        {
+          "accountId": "finedge-capital",
+          "relevance": "High",
+          "impactType": "Churn Risk Reduction",
+          "reasoning": "FinEdge Capital is a financial services enterprise with strict compliance requirements. RBAC improvements directly address their data governance and regulatory obligations.",
+          "confidenceScore": 0.94
+        },
+        {
+          "accountId": "novahealth",
+          "relevance": "High",
+          "impactType": "Churn Risk Reduction",
+          "reasoning": "NovaHealth handles healthcare data with HIPAA considerations. RBAC features that enable department-level data sensitivity controls are a compliance requirement.",
+          "confidenceScore": 0.91
+        },
+        {
+          "accountId": "franchiseworks",
+          "relevance": "Medium",
+          "impactType": "Adoption Boost",
+          "reasoning": "FranchiseWorks has multiple admin levels across 18 locations. Granular RBAC would allow location-level administrators without giving full platform access.",
+          "confidenceScore": 0.74
+        }
+      ]
+    },
+    {
+      "ruleId": "FI-003",
+      "featureCategory": "Analytics and Reporting",
+      "triggerKeywords": ["analytics", "reporting", "dashboard", "executive dashboard", "cohort", "custom reports", "data visualization"],
+      "matches": [
+        {
+          "accountId": "urbanfit-studios",
+          "relevance": "High",
+          "impactType": "Expansion Opportunity",
+          "reasoning": "UrbanFit Studios uses analytics for cross-location performance comparison. Executive dashboard features directly address their leadership reporting needs.",
+          "confidenceScore": 0.86
+        },
+        {
+          "accountId": "franchiseworks",
+          "relevance": "High",
+          "impactType": "Expansion Opportunity",
+          "reasoning": "FranchiseWorks leadership needs franchise-level performance benchmarking. Analytics features that support location comparison are a core use case.",
+          "confidenceScore": 0.84
+        },
+        {
+          "accountId": "finedge-capital",
+          "relevance": "Medium",
+          "impactType": "Expansion Opportunity",
+          "reasoning": "FinEdge Capital has expressed interest in executive-level reporting for operational analytics. Custom reporting features are relevant for their compliance documentation needs.",
+          "confidenceScore": 0.71
+        },
+        {
+          "accountId": "acme-retail-group",
+          "relevance": "Medium",
+          "impactType": "Adoption Boost",
+          "reasoning": "Low analytics adoption at Acme is a current risk. Enhanced analytics features may increase the value of the module and drive engagement.",
+          "confidenceScore": 0.65
+        }
+      ]
+    },
+    {
+      "ruleId": "FI-004",
+      "featureCategory": "Integrations and API",
+      "triggerKeywords": ["integration", "API", "sync", "webhook", "connect", "third-party", "data pipeline"],
+      "matches": [
+        {
+          "accountId": "acme-retail-group",
+          "relevance": "High",
+          "impactType": "Adoption Boost",
+          "reasoning": "Acme Retail uses multiple retail operations tools. Integration features would allow data to flow automatically, reducing manual entry and improving adoption.",
+          "confidenceScore": 0.83
+        },
+        {
+          "accountId": "zenops-logistics",
+          "relevance": "High",
+          "impactType": "Expansion Opportunity",
+          "reasoning": "ZenOps Logistics manages route optimization data across multiple systems. Integration features are a frequently requested upgrade and a path to deeper adoption.",
+          "confidenceScore": 0.81
+        },
+        {
+          "accountId": "brightpath-education",
+          "relevance": "Medium",
+          "impactType": "Churn Risk Reduction",
+          "reasoning": "BrightPath raised an integration concern in their last meeting. Integration improvements may address their specific pain point.",
+          "confidenceScore": 0.67
+        }
+      ]
+    },
+    {
+      "ruleId": "FI-005",
+      "featureCategory": "Onboarding and Training",
+      "triggerKeywords": ["onboarding", "training", "adoption", "getting started", "guided setup", "quick start"],
+      "matches": [
+        {
+          "accountId": "cloudkitchen-pro",
+          "relevance": "High",
+          "impactType": "Churn Risk Reduction",
+          "reasoning": "CloudKitchen Pro explicitly asked for a simpler onboarding path for kitchen staff. Improved onboarding features directly address their primary adoption barrier.",
+          "confidenceScore": 0.92
+        },
+        {
+          "accountId": "brightpath-education",
+          "relevance": "High",
+          "impactType": "Adoption Boost",
+          "reasoning": "BrightPath serves educational staff who benefit from structured learning paths. Onboarding improvements align with their organization's training culture.",
+          "confidenceScore": 0.77
+        },
+        {
+          "accountId": "urbanfit-studios",
+          "relevance": "Medium",
+          "impactType": "Adoption Boost",
+          "reasoning": "High staff turnover at studio level creates recurring onboarding needs. Self-serve onboarding features would reduce the burden on the operations team.",
+          "confidenceScore": 0.72
+        }
+      ]
+    }
+  ]
+}

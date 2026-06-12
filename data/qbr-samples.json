@@ -1,0 +1,122 @@
+[
+  {
+    "id": "qbr-franchiseworks-q2-2026",
+    "accountId": "franchiseworks",
+    "generatedAt": "2026-06-01T11:00:00Z",
+    "generatedBy": "AI",
+    "status": "draft",
+    "reviewedBy": null,
+    "periodCovered": "Q2 2026 (April 1 – June 30, 2026)",
+    "sections": {
+      "executiveSummary": "FranchiseWorks continues to be a strategically important account at $380K ARR. This quarter has been marked by mixed results: strong intent to expand regionally while experiencing platform adoption inconsistencies across franchise locations and an unresolved API performance issue. Our current account health score is 48/100, a decline of 10 points over the past 30 days. Renewal is in 65 days (August 15, 2026). The primary focus for Q3 must be resolving the technical blocker and stabilizing adoption before advancing the expansion conversation.",
+      "healthScoreSummary": {
+        "currentScore": 48,
+        "previousQuarterScore": 62,
+        "trend": "Declining",
+        "keyDrivers": [
+          "API performance issue unresolved (3+ weeks) — contributing -8 points",
+          "Franchise adoption inconsistency — 45% active user rate vs. 70% target",
+          "Two consecutive meetings with negative sentiment signals"
+        ]
+      },
+      "adoptionHighlights": {
+        "activeUserRate": "45% (54 of 120 provisioned users)",
+        "topModules": ["Franchise Reporting (82% adoption)", "Core Platform (71% adoption)"],
+        "underutilizedModules": ["Franchise Benchmarking (12% adoption)", "API Integrations (8% adoption)", "Advanced Analytics (15% adoption)"],
+        "notes": "Adoption is polarized: flagship locations are highly active; underperforming locations barely log in. This suggests the adoption problem is not the product — it is the activation process for new franchise locations."
+      },
+      "openRisks": [
+        {
+          "risk": "API performance degradation",
+          "severity": "Critical",
+          "daysOpen": 21,
+          "impact": "IT team escalation; franchise rollout stalled; cited in customer meeting as key satisfaction driver",
+          "mitigation": "Engineering escalation initiated. Resolution plan expected within 48 hours."
+        },
+        {
+          "risk": "Franchise adoption inconsistency",
+          "severity": "High",
+          "daysOpen": 45,
+          "impact": "Low overall adoption rate; ROI concerns from regional management",
+          "mitigation": "Targeted activation program for underperforming locations proposed. CSM to present activation plan this week."
+        }
+      ],
+      "expansionOpportunities": [
+        {
+          "opportunity": "Regional expansion — 3 additional franchise regions",
+          "status": "In conversation",
+          "budgetCycle": "Q3 2026",
+          "notes": "CEO Sarah Okonkwo has expressed interest. Jordan Kim (Regional Ops) is the day-to-day contact. Timeline: discuss after health issues are resolved. Do not advance expansion conversation until API issue is resolved and adoption has stabilized."
+        }
+      ],
+      "recommendedNextSteps": [
+        "CRITICAL — Engineering: Resolve API performance issue within 48 hours. Communicate resolution to Jordan Kim by June 13.",
+        "HIGH — CSM: Present franchise activation plan for underperforming locations at next check-in (week of June 16).",
+        "MEDIUM — CSM: Once health score recovers above 60, initiate expansion conversation with Sarah Okonkwo.",
+        "MEDIUM — CS Director: Consider joining the next executive check-in given renewal proximity."
+      ],
+      "renewalOutlook": {
+        "renewalDate": "2026-08-15",
+        "daysRemaining": 65,
+        "riskLevel": "High",
+        "recommendation": "Renewal is at risk without technical resolution. With API fix + adoption recovery, renewal is likely. Current at-risk ARR: $380K."
+      }
+    },
+    "disclaimer": "AI-generated first draft. Review all facts against account record before sharing with customer."
+  },
+  {
+    "id": "qbr-novahealth-q2-2026",
+    "accountId": "novahealth",
+    "generatedAt": "2026-06-01T11:15:00Z",
+    "generatedBy": "AI",
+    "status": "draft",
+    "reviewedBy": null,
+    "periodCovered": "Q2 2026 (April 1 – June 30, 2026)",
+    "sections": {
+      "executiveSummary": "NovaHealth had an excellent Q2. Health score has reached 82/100 — the highest in the account's history — driven by strong clinical staff adoption and measurable operational improvements. The scheduling module has delivered a 40% reduction in double-booking errors, validating the initial business case. The most significant opportunity ahead is the regional expansion to 3 additional hospital sites, with Q1 2027 budget already committed. Our recommendation is to deliver a detailed expansion proposal before the Q3 budget planning cycle.",
+      "healthScoreSummary": {
+        "currentScore": 82,
+        "previousQuarterScore": 76,
+        "trend": "Improving",
+        "keyDrivers": [
+          "Clinical staff adoption rate: 84% (up from 71% at contract start)",
+          "Scheduling module: 40% reduction in double-booking errors",
+          "Two consecutive positive sentiment meetings"
+        ]
+      },
+      "adoptionHighlights": {
+        "activeUserRate": "84% (38 of 45 provisioned users)",
+        "topModules": ["Scheduling (96% adoption)", "Clinical Operations (88% adoption)", "Reporting (72% adoption)"],
+        "underutilizedModules": ["Advanced Analytics (22% adoption)"],
+        "notes": "Adoption is strong. Advanced Analytics is the one underutilized module — this is also an expansion opportunity given their data reporting needs."
+      },
+      "openRisks": [],
+      "expansionOpportunities": [
+        {
+          "opportunity": "3 additional hospital sites",
+          "status": "Active — budget approved",
+          "budgetCycle": "Q1 2027",
+          "notes": "Regional VP Anand Krishnan has given verbal commitment. Finance team has included a budget line in Q1 2027 plan. We should deliver a proposal by October 2026 (before Q1 budget finalization). Expected expansion ARR: $150K–$200K."
+        },
+        {
+          "opportunity": "Advanced Analytics module activation",
+          "status": "Potential",
+          "budgetCycle": "Current contract",
+          "notes": "22% adoption on Advanced Analytics suggests unmet need. A targeted activation session could unlock this module and demonstrate additional value before the expansion proposal."
+        }
+      ],
+      "recommendedNextSteps": [
+        "HIGH — CSM: Schedule proposal meeting with Anand Krishnan and Kavya Subramaniam for August 2026.",
+        "MEDIUM — CSM: Run Advanced Analytics activation session with the reporting team.",
+        "LOW — CSM: Confirm Q1 budget cycle dates with Kavya to ensure proposal is delivered in time."
+      ],
+      "renewalOutlook": {
+        "renewalDate": "2026-10-30",
+        "daysRemaining": 140,
+        "riskLevel": "Low",
+        "recommendation": "Renewal is highly likely. Account is healthy and has active expansion interest. Use the renewal conversation to combine renewal + expansion proposal."
+      }
+    },
+    "disclaimer": "AI-generated first draft. Review all facts against account record before sharing with customer."
+  }
+]

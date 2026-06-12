@@ -1,0 +1,140 @@
+[
+  {
+    "id": "meeting-001",
+    "accountId": "cloudkitchen-pro",
+    "submittedBy": "Jordan Lee",
+    "submittedAt": "2026-05-22T15:00:00Z",
+    "meetingDate": "2026-05-22",
+    "meetingType": "Check-in",
+    "attendees": ["Marcus Webb (CEO)", "Jordan Lee (CSM)"],
+    "rawNotes": "Check-in with Marcus Webb. He opened by saying their team is stretched and they haven't had time to adopt the platform properly. Mentioned they haven't seen the ROI they expected. He said he's not sure whether they'll renew at this price point — they might look for something simpler. I tried to explain the value of the modules they haven't used yet but he seemed disengaged. He did say he'd give it another month.",
+    "aiAnalysis": {
+      "sentiment": "Negative",
+      "churnRiskDelta": "Increased",
+      "churnRiskConfidence": 0.88,
+      "triggeringPhrases": [
+        "not sure whether they'll renew at this price point",
+        "look for something simpler",
+        "haven't seen the ROI they expected"
+      ],
+      "expansionSignal": null,
+      "keyThemes": ["ROI dissatisfaction", "adoption barriers", "price sensitivity"],
+      "summary": "High-risk meeting. Customer expressing renewal uncertainty and price concerns. Adoption gap is the stated root cause. Engagement was low. Recommend immediate executive check-in before renewal window closes.",
+      "recommendedActions": ["Executive Check-in", "Adoption Recovery Plan"]
+    }
+  },
+  {
+    "id": "meeting-002",
+    "accountId": "cloudkitchen-pro",
+    "submittedBy": "Jordan Lee",
+    "submittedAt": "2026-05-29T16:30:00Z",
+    "meetingDate": "2026-05-29",
+    "meetingType": "Follow-up",
+    "attendees": ["Marcus Webb (CEO)", "Jordan Lee (CSM)"],
+    "rawNotes": "Follow-up call with Marcus. He seemed slightly more open to talking. His team is barely using it — maybe 2 of the 8 modules. He asked if there was a simpler onboarding path for new kitchen staff. Said he'd be willing to try an onboarding push if we could make it fast and not require IT involvement. Renewal is July 12.",
+    "aiAnalysis": {
+      "sentiment": "Cautious / Slightly Positive",
+      "churnRiskDelta": "Increased",
+      "churnRiskConfidence": 0.75,
+      "triggeringPhrases": ["barely using it — maybe 2 of the 8 modules"],
+      "expansionSignal": null,
+      "keyThemes": ["module adoption", "onboarding friction", "IT dependency"],
+      "summary": "Second consecutive negative meeting, though tone was slightly more constructive. Customer has identified a specific ask: simplified, IT-free onboarding for kitchen staff. This is actionable. Renewal in 44 days from this meeting.",
+      "recommendedActions": ["Adoption Recovery — simplified onboarding", "Retention offer development"]
+    }
+  },
+  {
+    "id": "meeting-003",
+    "accountId": "novahealth",
+    "submittedBy": "Raj Patel",
+    "submittedAt": "2026-06-03T10:00:00Z",
+    "meetingDate": "2026-06-03",
+    "meetingType": "Quarterly Check-in",
+    "attendees": ["Kavya Subramaniam (Clinical Operations)", "Raj Patel (CSM)"],
+    "rawNotes": "Quarterly check-in with Kavya. She's very happy — said the clinical staff have been using the scheduling module daily and the error rate for double-bookings is down 40%. Regional VP Anand is interested in rolling this out to 3 more hospital sites and asked us to put together a proposal. She also said the finance team is planning to include a budget line for expanded licenses in their Q1 budget cycle. She said it's been a great partnership. Mentioned that the Advanced Analytics module hasn't been used much — they're not sure how to get started with it.",
+    "aiAnalysis": {
+      "sentiment": "Very Positive",
+      "churnRiskDelta": "Decreased",
+      "churnRiskConfidence": 0.90,
+      "triggeringPhrases": [],
+      "expansionSignal": {
+        "type": "Site Expansion",
+        "confidence": 0.87,
+        "supportingPhrases": [
+          "interested in rolling this out to 3 more hospital sites",
+          "finance team is planning to include a budget line for expanded licenses in their Q1 budget cycle"
+        ],
+        "opportunitySize": "Medium-High ($150K–$200K estimated expansion ARR)",
+        "timingSignal": "Q1 2027 budget cycle"
+      },
+      "keyThemes": ["strong adoption", "business outcome validation", "expansion interest", "analytics under-utilization"],
+      "summary": "Excellent meeting. Customer is achieving measurable outcomes (40% reduction in double-bookings). Clear expansion signal with Q1 budget commitment. Minor opportunity: activate Advanced Analytics module.",
+      "recommendedActions": ["Expansion Proposal Prep", "Advanced Analytics activation session"]
+    }
+  },
+  {
+    "id": "meeting-004",
+    "accountId": "franchiseworks",
+    "submittedBy": "Sam Torres",
+    "submittedAt": "2026-06-04T09:30:00Z",
+    "meetingDate": "2026-06-04",
+    "meetingType": "Monthly Review",
+    "attendees": ["Jordan Kim (Regional Operations Manager)", "Sam Torres (CSM)"],
+    "rawNotes": "Monthly review with Jordan Kim. He opened by noting that franchise adoption is really inconsistent — some locations are 90%+ active, others barely log in at all. He mentioned that their IT team has been complaining for weeks about the API response times and nobody has resolved the ticket. He was clearly frustrated about that — said he's had to apologize to his IT lead multiple times. Also mentioned that their CEO Sarah is interested in expanding to 3 more regions and that this platform would be part of that plan. Budget for regional expansion is in the Q3 plan. Despite the frustrations, Jordan said he thinks the platform can work if the technical issues are resolved.",
+    "aiAnalysis": {
+      "sentiment": "Cautious — Mixed",
+      "churnRiskDelta": "Increased",
+      "churnRiskConfidence": 0.83,
+      "triggeringPhrases": [
+        "API response times and nobody has resolved the ticket",
+        "had to apologize to his IT lead multiple times",
+        "adoption is really inconsistent"
+      ],
+      "expansionSignal": {
+        "type": "Regional Expansion",
+        "confidence": 0.79,
+        "supportingPhrases": [
+          "CEO is interested in expanding to 3 more regions",
+          "budget for regional expansion is in the Q3 plan"
+        ],
+        "opportunitySize": "Medium ($120K–$180K estimated expansion ARR)",
+        "timingSignal": "Q3 2026 budget cycle — but contingent on technical resolution"
+      },
+      "keyThemes": ["technical frustration", "adoption inconsistency", "unresolved support ticket", "expansion interest"],
+      "summary": "Mixed meeting with both risk and opportunity signals. The API performance issue is the most urgent item — it is damaging trust and blocking the expansion conversation. Franchise adoption inconsistency is a secondary concern. Expand conversations should be held until the technical blocker is resolved.",
+      "recommendedActions": ["Support Escalation — API performance (Critical)", "Franchise Activation Plan", "Expansion Proposal (Deferred — after technical resolution)"]
+    }
+  },
+  {
+    "id": "meeting-005",
+    "accountId": "acme-retail-group",
+    "submittedBy": "Maya Chen",
+    "submittedAt": "2026-05-20T14:00:00Z",
+    "meetingDate": "2026-05-20",
+    "meetingType": "Check-in",
+    "attendees": ["Priya Sharma (VP Operations)", "Maya Chen (CSM)"],
+    "rawNotes": "Check-in with Priya. Adoption is lower than expected in the analytics module — only about 30% of managers are logging in weekly. She mentioned they have a lot of new store managers who haven't been trained yet. There's some pressure from her VP about demonstrating ROI. She also said they're expanding to 5 new retail locations next quarter and will need to onboard new store leads. She seemed engaged and positive overall — just frustrated by the adoption issue.",
+    "aiAnalysis": {
+      "sentiment": "Mixed — Cautious",
+      "churnRiskDelta": "Increased",
+      "churnRiskConfidence": 0.74,
+      "triggeringPhrases": [
+        "only about 30% of managers are logging in weekly",
+        "pressure from her VP about demonstrating ROI"
+      ],
+      "expansionSignal": {
+        "type": "New Locations",
+        "confidence": 0.82,
+        "supportingPhrases": [
+          "expanding to 5 new retail locations next quarter",
+          "need to onboard new store leads"
+        ],
+        "opportunitySize": "Small-Medium ($40K–$60K estimated expansion ARR)",
+        "timingSignal": "Q3 2026 (next quarter)"
+      },
+      "keyThemes": ["analytics adoption gap", "ROI pressure", "new location expansion", "onboarding need"],
+      "summary": "Mixed signals: adoption and ROI pressure represent near-term risk; 5-location expansion represents near-term opportunity. Correct sequence: address the adoption gap first, then capitalize on the expansion need. A new-location onboarding package would serve both purposes.",
+      "recommendedActions": ["Adoption Recovery — analytics module training", "New Location Onboarding Package"]
+    }
+  }
+]

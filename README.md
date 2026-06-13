@@ -1,7 +1,7 @@
 # SuccessOS AI
 
-> An AI-native Customer Success Intelligence Agent — built as part of the Product School AI Product Strategy course.
-> This repo contains the live strategy documentation and a functional React prototype.
+> An AI-native Customer Success Intelligence Agent — original product strategy, working prototype, and AI architecture built from first principles.
+> This repo contains the full strategy documentation and a functional React prototype.
 
 ---
 
@@ -53,22 +53,22 @@ npm run dev
 
 ---
 
-## AI Product Strategy
+## Product Strategy Framework
 
-This repo doubles as a living strategy document built across 6 course modules.
+This repo documents the full product strategy across six interconnected frameworks.
 
-| Component | Module | Status | Key Artifact |
-|-----------|--------|--------|-------------|
-| **The Bet** | M1 | ✅ Complete | [`01-the-bet/`](01-the-bet/) |
-| **The Moat** | M2 | ✅ Complete | [`02-the-moat/`](02-the-moat/) |
-| **The Margin** | M3 | Pending | [`03-the-margin/`](03-the-margin/) |
-| **The Contract** | M4 | Pending | [`04-the-contract/`](04-the-contract/) |
-| **The Guardrails** | M5 | Pending | [`05-the-guardrails/`](05-the-guardrails/) |
-| **The Pitch** | M6 | Pending | [`06-the-pitch/`](06-the-pitch/) |
+| Component | Status | Key Artifact |
+|-----------|--------|-------------|
+| **The Bet** | ✅ Complete | [`AI Product Strategy - Product School/01-the-bet/`](AI%20Product%20Strategy%20-%20Product%20School/01-the-bet/) |
+| **The Moat** | ✅ Complete | [`AI Product Strategy - Product School/02-the-moat/`](AI%20Product%20Strategy%20-%20Product%20School/02-the-moat/) |
+| **The Margin** | ✅ Complete | [`AI Product Strategy - Product School/03-the-margin/`](AI%20Product%20Strategy%20-%20Product%20School/03-the-margin/) |
+| **The Contract** | In Progress | [`AI Product Strategy - Product School/04-the-contract/`](AI%20Product%20Strategy%20-%20Product%20School/04-the-contract/) |
+| **The Guardrails** | In Progress | [`AI Product Strategy - Product School/05-the-guardrails/`](AI%20Product%20Strategy%20-%20Product%20School/05-the-guardrails/) |
+| **The Pitch** | In Progress | [`AI Product Strategy - Product School/06-the-pitch/`](AI%20Product%20Strategy%20-%20Product%20School/06-the-pitch/) |
 
 ---
 
-## The Bet (M1) ✅
+## The Bet ✅
 
 **What we're building, for whom, why now.**
 
@@ -88,7 +88,7 @@ This repo doubles as a living strategy document built across 6 course modules.
 
 ---
 
-## The Moat (M2) ✅
+## The Moat ✅
 
 **Why this won't get copied in 6 months.**
 
@@ -102,7 +102,7 @@ This repo doubles as a living strategy document built across 6 course modules.
 
 ---
 
-## The Margin (M3) — Pending
+## The Margin — In Progress
 
 **Will this make money or bleed it?**
 
@@ -116,7 +116,7 @@ This repo doubles as a living strategy document built across 6 course modules.
 
 ---
 
-## The Contract (M4) — Pending
+## The Contract — In Progress
 
 **Why users will trust a probabilistic system.**
 
@@ -130,7 +130,7 @@ This repo doubles as a living strategy document built across 6 course modules.
 
 ---
 
-## The Guardrails (M5) — Pending
+## The Guardrails — In Progress
 
 **What breaks when this scales — and what compounds.**
 
@@ -144,7 +144,7 @@ This repo doubles as a living strategy document built across 6 course modules.
 
 ---
 
-## The Pitch (M6) — Pending
+## The Pitch — In Progress
 
 **How you get this funded, shipped, and adopted.**
 
@@ -155,6 +155,16 @@ This repo doubles as a living strategy document built across 6 course modules.
 - **Key Metric:** —
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
+
+---
+
+## What I Built
+
+| Artifact | Description |
+|---|---|
+| React prototype | Functional prototype in `/app` — React + Vite + Tailwind, all major platform surfaces including health dashboard, meeting intelligence, churn alerts, and expansion recommendations |
+| Full strategy package | Vision, product strategy, agent architecture, HITL design, churn detection model, and expansion intelligence docs |
+| Standard portfolio docs | PORTFOLIO_AUDIT, PRODUCT_THESIS, WHAT_I_BUILT, OUTCOME_MODEL, AI_PRODUCT_JUDGMENT |
 
 ---
 
@@ -170,4 +180,4 @@ This project demonstrates:
 - Honest AI product strategy: vulnerability scoring, flywheel assessment, vendor lock-in audit, competitive encroachment modeling
 - AI-native product design for Customer Success teams
 
-Built for the Product School AI Product Strategy course. Intended as a portfolio artifact for Staff / Principal AI Product Manager roles.
+Independent product exploration. Uses synthetic examples, mock data, and public category-level assumptions.

@@ -1,7 +1,8 @@
 # SuccessOS AI
 
-> An AI-native Customer Success Intelligence Agent — original product strategy, working prototype, and AI architecture built from first principles.
-> This repo contains the full strategy documentation and a functional React prototype.
+> Customer success intelligence platform — churn detection, expansion signals, meeting intelligence, and QBR automation with CSM approval for all customer-facing actions.
+
+**Status:** Concept + Prototype · React prototype included · Synthetic account data and mock signals throughout
 
 ---
 
@@ -155,6 +156,18 @@ This repo documents the full product strategy across six interconnected framewor
 - **Key Metric:** —
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
+
+---
+
+## Build / Maintain / Improve / Kill
+
+**Build** — Real Salesforce/HubSpot/Gong integrations and a live churn classification model trained on actual account health signals. Without real data, the health score is a demo; with real data, it is a retention tool.
+
+**Maintain** — The internal/external governance boundary: AI-autonomous for internal state updates, CSM approval required for all customer-facing outputs. This distinction must be preserved as the product scales — it is the trust model, not a temporary constraint.
+
+**Improve** — Meeting intelligence extraction. The current prototype uses structured summaries. A production system uses LLM extraction with a defined schema (churn signals, expansion signals, commitments, blockers) and validates extractions against the raw transcript.
+
+**Kill** — Health score features that average across too many signals without weighting. An account with one critical risk signal (executive departure + upcoming renewal) should not score the same as one with five minor signals. Weighted signal composition is more useful than signal count.
 
 ---
 

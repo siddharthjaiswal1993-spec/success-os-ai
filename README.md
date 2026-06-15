@@ -85,7 +85,7 @@ This repo documents the full product strategy across six interconnected framewor
   - Cross-customer pattern data after 12 months shows no meaningful improvement in churn prediction over baseline CRM signals alone
   - Enterprise procurement cycles exceed 9 months on average, making CAC unrecoverable at any realistic ACV
 
-→ Details: [`01-the-bet/`](01-the-bet/)
+→ Details: [`01-the-bet/`](AI%20Product%20Strategy%20-%20Product%20School/01-the-bet/)
 
 ---
 
@@ -93,69 +93,13 @@ This repo documents the full product strategy across six interconnected framewor
 
 **Why this won't get copied in 6 months.**
 
-- **Data Flywheel Score:** 5/20 (ground zero — honest assessment)
+- **Data Flywheel Score:** 5/20 (early stage — correction loop exists in UI but captures no persistent data yet)
 - **Weakest Loop:** Correction — Approve/Dismiss signals exist in the UI but capture zero persistent data today
 - **Competitive Position:** Workflow depth and transparent AI reasoning vs. Gainsight (data depth) vs. Salesforce (distribution)
 - **Encroachment Defense:** Human-in-the-loop approval design, CS domain signal model, correction loop data (to be built); defensible response is going deeper on autonomous execution and cross-platform intelligence that no single incumbent can replicate
-- **Vendor Portability:** Locked (ground zero — no abstraction layer, single LLM provider dependency; path to Partial requires a thin wrapper and at least one alternative provider tested)
+- **Vendor Portability:** Locked — no abstraction layer yet; single LLM provider dependency. Path to Partial: add a thin wrapper and test at least one alternative provider.
 
-→ Details: [`02-the-moat/`](02-the-moat/)
-
----
-
-## The Margin — In Progress
-
-**Will this make money or bleed it?**
-
-- **Gross Margin (current):** —
-- **Gross Margin (AI-adjusted):** —
-- **Pricing Model:** —
-- **Cascading Strategy:** —
-- **Break-even at:** —
-
-→ Details: [`03-the-margin/`](03-the-margin/)
-
----
-
-## The Contract — In Progress
-
-**Why users will trust a probabilistic system.**
-
-- **Reliability Target:** —
-- **Golden Dataset:** —
-- **Confidence UX:** —
-- **HITL Architecture:** —
-- **Failure Mode Coverage:** —
-
-→ Details: [`04-the-contract/`](04-the-contract/)
-
----
-
-## The Guardrails — In Progress
-
-**What breaks when this scales — and what compounds.**
-
-- **Compounding System:** —
-- **Governance Posture:** —
-- **Shadow AI Status:** —
-- **Agent Boundaries:** —
-- **Regulatory Exposure:** —
-
-→ Details: [`05-the-guardrails/`](05-the-guardrails/)
-
----
-
-## The Pitch — In Progress
-
-**How you get this funded, shipped, and adopted.**
-
-- **Horizon 1 (Now):** —
-- **Horizon 2 (Next):** —
-- **Horizon 3 (Bet):** —
-- **Board Narrative:** —
-- **Key Metric:** —
-
-→ Details: [`06-the-pitch/`](06-the-pitch/)
+→ Details: [`02-the-moat/`](AI%20Product%20Strategy%20-%20Product%20School/02-the-moat/)
 
 ---
 
@@ -181,16 +125,4 @@ This repo documents the full product strategy across six interconnected framewor
 
 ---
 
-## Portfolio Context
-
-This project demonstrates:
-
-- Agentic workflow design with human-in-the-loop approval
-- AI reasoning transparency (confidence scores, signal attribution)
-- Churn detection and expansion intelligence
-- Feature-to-customer impact mapping
-- Customer account memory and health modeling
-- Honest AI product strategy: vulnerability scoring, flywheel assessment, vendor lock-in audit, competitive encroachment modeling
-- AI-native product design for Customer Success teams
-
-Independent product exploration. Uses synthetic examples, mock data, and public category-level assumptions.
+*Independent product exploration. Uses synthetic examples, mock data, and public category-level assumptions.*

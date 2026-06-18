@@ -6,19 +6,19 @@
 ## Scores
 
 ### Contextual Moat — 4/5
-Lives in the CSM's daily workflow: health monitoring, churn alerts, meeting notes. Over time it learns account-specific context, so switching means losing that and starting over. Docked a point because CS teams are small and opinionated, so one champion leaving can stall adoption.
-**Attacker:** Gainsight. Already owns the CSM workflow; just needs to layer AI on top.
+Lives in the CSM's daily workflow: health monitoring, churn alerts, meeting notes, and intervention planning. The core thesis is not better reporting; it is helping teams intervene before churn becomes visible. Docked a point because CS teams are small and champion turnover can reset adoption.
+**Attacker:** Gainsight. Already owns much of the CS workflow.
 
 ### Data Advantage — 3/5
-We synthesize CRM + product usage + call data, which no single source has on its own. But we don't own any of those sources, and the real edge (cross-customer churn patterns) only shows up at scale.
-**Attacker:** Gong. Owns the call data and is already moving into CS.
+We combine CRM, product usage, support, and call signals into a single account view. We do not own those sources today; the long-term advantage comes from correction data and intervention outcomes captured over time.
+**Attacker:** Gong. Owns a critical signal source and is expanding into CS.
 
 ### Platform Exposure — 4/5
-Highest-risk axis. Salesforce/Einstein can ship health scoring and churn alerts natively inside the CRM with zero integration friction. Our defensible move is to go deeper on autonomous action, not just insights.
+Highest-risk axis. Salesforce can ship health scoring and alerts natively. Our defensible position is customer outcome workflows: prioritizing interventions, coordinating actions, and learning from results across systems.
 **Attacker:** Salesforce Einstein + Agentforce.
 
 ## Top Vulnerability
-Platform exposure. Salesforce, Gainsight, and Gong can each ship CS intelligence inside tools customers already pay for, potentially commoditizing us before we reach the scale our data advantage needs.
+Platform exposure. Salesforce, Gainsight, and Gong can all replicate insight surfaces faster than we can build distribution.
 
 ## Confidence Level
-Medium. Defensible if we lock in workflow depth and predictive accuracy in the next 12–18 months. After that the window closes fast.
+Medium. Defensible if we create a correction-data flywheel and become the system that converts weak signals into interventions before incumbents close the gap.

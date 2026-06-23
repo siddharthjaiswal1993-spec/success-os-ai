@@ -1,7 +1,7 @@
 # The Prototype Bet
 
 ## What I Built
-An AI Customer Success agent that monitors account health, flags churn risk, surfaces expansion opportunities, and recommends the next action. One command center across a CSM's whole portfolio.
+A Customer Success AI workspace that helps a CSM see risky accounts, understand why they are risky, find expansion opportunities, and decide the next best action.
 
 ## Tool Used
 Lovable
@@ -10,13 +10,13 @@ Lovable
 https://agent-success-os.lovable.app
 
 ## AI Value Archetype
-Orchestrator. It doesn't just surface insights, it prioritizes actions across accounts and drives the CSM's next move.
+Orchestrator. The product is not just summarizing data. It coordinates the CSM's next move across account health, meeting notes, feature gaps, and follow-up actions.
 
 ## The Bet in One Sentence
-SuccessOS AI is the autonomous CS intelligence layer for enterprise CSMs who manage too many accounts to watch manually and can't afford to miss a churn signal.
+SuccessOS AI helps enterprise CSMs manage too many accounts by turning scattered customer signals into clear churn-risk and expansion workflows.
 
 ## Kill Criteria
-- Gainsight or Salesforce ships comparable native AI before we hit 20+ enterprise accounts.
-- CSMs consistently ignore the recommended actions, meaning the trust gap is too big to close.
-- After 12 months, cross-customer data shows no real lift over plain CRM signals.
-- Enterprise sales cycles run past 9 months, making CAC unrecoverable.
+- Gainsight or Salesforce launches a similar native AI workflow before SuccessOS reaches 20+ enterprise accounts.
+- CSMs keep ignoring the AI recommendations, which means the product has a trust problem.
+- After 12 months, the product does not predict churn better than basic CRM and usage signals.
+- Enterprise sales cycles go beyond 9 months and the expected ACV cannot justify the CAC.

@@ -63,9 +63,9 @@ This repo documents the full product strategy across six interconnected framewor
 | **The Bet** | ✅ Complete | [`AI Product Strategy - Product School/01-the-bet/`](AI%20Product%20Strategy%20-%20Product%20School/01-the-bet/) |
 | **The Moat** | ✅ Complete | [`AI Product Strategy - Product School/02-the-moat/`](AI%20Product%20Strategy%20-%20Product%20School/02-the-moat/) |
 | **The Margin** | ✅ Complete | [`AI Product Strategy - Product School/03-the-margin/`](AI%20Product%20Strategy%20-%20Product%20School/03-the-margin/) |
-| **The Contract** | In Progress | [`AI Product Strategy - Product School/04-the-contract/`](AI%20Product%20Strategy%20-%20Product%20School/04-the-contract/) |
-| **The Guardrails** | In Progress | [`AI Product Strategy - Product School/05-the-guardrails/`](AI%20Product%20Strategy%20-%20Product%20School/05-the-guardrails/) |
-| **The Pitch** | In Progress | [`AI Product Strategy - Product School/06-the-pitch/`](AI%20Product%20Strategy%20-%20Product%20School/06-the-pitch/) |
+| **The Contract** | ✅ Complete | [`AI Product Strategy - Product School/04-the-contract/`](AI%20Product%20Strategy%20-%20Product%20School/04-the-contract/) |
+| **The Guardrails** | ✅ Complete | [`AI Product Strategy - Product School/05-the-guardrails/`](AI%20Product%20Strategy%20-%20Product%20School/05-the-guardrails/) |
+| **The Pitch** | ✅ Complete | [`AI Product Strategy - Product School/06-the-pitch/`](AI%20Product%20Strategy%20-%20Product%20School/06-the-pitch/) |
 
 ---
 
